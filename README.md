@@ -9,5 +9,6 @@ Android-Parking App giving Real Time Parking Data
 user’s current location, famous places and through desired physical address and to track the parked car. 
 
 •	API’s Used:- Google geocoding, Google places, Google maps, 3rd party API’s (parking data). 
+
 •	For Google Places API integration, you need "Browser API key" which you'll get from registering at Google API's. 
 
