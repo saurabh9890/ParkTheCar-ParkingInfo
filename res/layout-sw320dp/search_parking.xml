@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btCurrentLocation" android:background="@drawable/currentchanged" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" />
+        <Button android:id="@id/btFamous" android:background="@drawable/taj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/tvCurrent" />
+        <TextView android:textStyle="bold" android:textColor="@drawable/text_color" android:id="@id/tvFamous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:text="Find Parking For Famous Locations" android:layout_below="@id/btFamous" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/btAddress" android:background="@drawable/addressinput" android:layout_width="fill_parent" android:layout_height="115.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/tvFamous" />
+        <TextView android:textStyle="bold" android:textColor="@drawable/text_color" android:id="@id/tvAddressInput" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:text="Enter Address To Find Parking" android:layout_below="@id/btAddress" android:layout_alignParentLeft="true" />
+        <TextView android:textStyle="bold" android:textColor="@drawable/text_color" android:id="@id/tvCurrent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:text="Parking For Current Location" android:layout_below="@id/btCurrentLocation" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</ScrollView>

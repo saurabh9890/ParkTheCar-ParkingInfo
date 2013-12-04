@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="right" android:background="@drawable/inputbackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tvStreet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="40.0dip" android:text="Street" android:layout_alignParentLeft="true" />
+        <EditText android:id="@id/etStreet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:hint="House #, Street" android:layout_toRightOf="@id/tvStreet" android:layout_alignBottom="@id/tvStreet" />
+        <TextView android:id="@id/tvCity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="40.0dip" android:text="City" android:layout_below="@id/tvStreet" android:layout_alignParentLeft="true" />
+        <EditText android:id="@id/etCity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/etStreet" android:layout_alignLeft="@id/etStreet" android:layout_alignBottom="@id/tvCity" />
+        <TextView android:id="@id/tvState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="40.0dip" android:text="State" android:layout_below="@id/tvCity" android:layout_alignParentLeft="true" />
+        <EditText android:id="@id/etState" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/etCity" android:layout_alignLeft="@id/etCity" android:layout_alignBottom="@id/tvState" />
+        <TextView android:id="@id/tvZip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="40.0dip" android:text="Zip" android:layout_below="@id/tvState" android:layout_alignParentLeft="true" />
+        <EditText android:id="@id/etZip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/etState" android:layout_alignLeft="@id/etState" android:layout_alignBottom="@id/tvZip" />
+        <Button android:id="@id/btGetparkingaddress" android:background="@drawable/fparking" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:layout_marginTop="40.0dip" android:layout_below="@id/tvZip" />
+    </RelativeLayout>
+</ScrollView>
